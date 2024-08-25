@@ -13,7 +13,8 @@ const AuthProvider = ({ children }) => {
 
 
     const [loading, setLoading] = useState(false);
-    const [isLogin, setIsLogin] = useState(false);
+    const user = localStorage.getItem('user');
+    const password = localStorage.getItem('password');
     // const [error, setError] = useState('');
     // const [email,setEmail]=useState('');
     // const[password,setPassword]=useState('');
@@ -46,7 +47,7 @@ const AuthProvider = ({ children }) => {
 // }
 
     return (
-      <AuthContext.Provider value={{ loading,isLogin,setIsLogin,setLoading}}>
+      <AuthContext.Provider value={{ loading,user,password,setLoading}}>
         {children}
       </AuthContext.Provider>
     );

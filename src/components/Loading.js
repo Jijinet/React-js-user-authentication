@@ -3,19 +3,19 @@ import React from 'react'
 const Loading = () => {
   return (
     <div>
-       <div class="animated-loading-dots-wrapper">
-  <div class="animated-loading-dots">
-    <div class="dot1"></div>
-    <div class="dot2"></div>
-    <div class="dot3"></div>
-    <div class="dot4"></div>
+       <div className="animated-loading-dots-wrapper">
+  <div className="animated-loading-dots">
+    <div className="dot1"></div>
+    <div className="dot2"></div>
+    <div className="dot3"></div>
+    <div className="dot4"></div>
   </div>
-</div><div class="animated-loading-dots-wrapper">
-  <div class="animated-loading-dots">
-    <div class="dot1"></div>
-    <div class="dot2"></div>
-    <div class="dot3"></div>
-    <div class="dot4"></div>
+</div><div className="animated-loading-dots-wrapper">
+  <div className="animated-loading-dots">
+    <div className="dot1"></div>
+    <div className="dot2"></div>
+    <div className="dot3"></div>
+    <div className="dot4"></div>
   </div>
 </div>
     </div>
